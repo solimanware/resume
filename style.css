@@ -3,11 +3,14 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0;
   text-align: center;
   background: #333639;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
-object {
+iframe {
   width: 100%;
   height: 100%;
   margin: auto;
@@ -15,6 +18,10 @@ object {
 }
 button {
   background-color: green;
+  width:50%;
+  align-self: center;
+  min-width: 390px;
+
   border: none;
   color: white;
   padding: 10px;
